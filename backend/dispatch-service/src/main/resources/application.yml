@@ -1,0 +1,15 @@
+server:
+  port: 8083
+
+spring:
+  application:
+    name: dispatch-service
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: user
+    password: password
+
+services:
+  driver:
+    url: http://localhost:8081
